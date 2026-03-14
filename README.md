@@ -84,7 +84,7 @@ type: drive<br>
 - scope: drive<br>
 - root_folder_id:<br>
 - service_account_file:<br>
-- token: {"access_token":"XXX",<br>"token_type":"Bearer","refresh_token":"XXX",<br><br>"expiry":"2014-03-16T13:57:58.955387075Z"}<br>
+- token: {"access_token":"XXX",<br>"token_type":"Bearer","refresh_token":"XXX",<br>"expiry":"2014-03-16T13:57:58.955387075Z"}<br>
 Keep this "remote" remote?<br>
 y) Yes this is OK<br>
 e) Edit this remote<br>
