@@ -2,7 +2,7 @@
 Synchronize local keepass database file with google drive personal area
 
 <H2>Before use</H2>
-<b>RCLONE</b> must be run and configured to exchange files from Google Drive to Local and viceversa</b><br><br>
+<b>RCLONE</b> must be run and configured to be anable exchange files from Local to Google Drive and viceversa</b><br><br>
 To configure I have flollowed the following steps:<br>
 
 <H2>Google Drive</H2>
