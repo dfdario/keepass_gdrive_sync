@@ -21,14 +21,14 @@ c) Copy remote<br>
 s) Set configuration password<br>
 q) Quit config<br>
 n/r/c/s/q> <b>n</b><br>
-name> <b>remote</b><br>
+name> <b>remote</b><br><br>
 Type of storage to configure.<br>
 Choose a number from below, or type in your own value<br>
 [snip]<br>
-XX / Google Drive --→>> <b>19</b><br>
+XX / Google Drive -->> <b>19</b><br>
    \ "drive"<br>
 [snip]<br>
-Storage> <b>drive</b><br>
+Storage> <b>drive</b><br><br>
 Google Application Client Id - leave blank normally.<br>
 client_id><br>
 Google Application Client Secret - leave blank normally.<br>
@@ -53,7 +53,7 @@ scope> <b>1</b><br>
 
 <H2>Service Account</h2>
 Credentials JSON file path - needed only if you want use SA instead of interactive login.<br>
-service_account_file> ... leave  blank normally.<br>
+service_account_file> ... leave  blank normally.<br><br>
 
 Edit advanced config?<br>
 y) Yes<br>
@@ -67,7 +67,7 @@ Use web browser to automatically authenticate rclone with remote?<br>
 If not sure try Y. If Y failed, try N.<br>
 y) Yes<br>
 n) No<br>
-y/n> <b>y</b><br>
+y/n> <b>y</b><br><br>
 If your browser doesn't open automatically go to the following link:<br>http://127.0.0.1:53682/auth<br>
 Log in and authorize rclone for access
 Waiting for code...<br>
@@ -75,7 +75,7 @@ Got code<br>
 Configure this as a Shared Drive (Team Drive)?<br>
 y) Yes<br>
 n) No<br>
-y/n> <b>n</b><br>
+y/n> <b>n</b><br><br>
 Configuration complete.<br>
 Options:<br>
 type: drive<br>
@@ -84,7 +84,7 @@ type: drive<br>
 - scope: drive<br>
 - root_folder_id:<br>
 - service_account_file:<br>
-- token: {"access_token":"XXX",<br>"token_type":"Bearer","refresh_token":"XXX",<br>"expiry":"2014-03-16T13:57:58.955387075Z"}<br>
+- token: {"access_token":"XXX",<br>"token_type":"Bearer","refresh_token":"XXX",<br><br>"expiry":"2014-03-16T13:57:58.955387075Z"}<br>
 Keep this "remote" remote?<br>
 y) Yes this is OK<br>
 e) Edit this remote<br>
