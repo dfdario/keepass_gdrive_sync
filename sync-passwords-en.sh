@@ -14,11 +14,11 @@
 DRIVE_NAME="remote"
 
 # Name and locations of the passwords file
-DB_FILE_NAME="Database.kdbx" # Name of the keepass database
-LOCAL_LOCATION="/run/media/$USER/MyData/Casa/Keepass/" # The place where the keepass database is stored 
+DB_FILE_NAME="Database.kdbx" # Name of the keepass database change with your own
+LOCAL_LOCATION="/run/media/$USER/MyData/home/Keepass/" # The place where the keepass database is stored change with your own
 LOCAL_BKUP=$LOCAL_LOCATION"bkup/" # The place where the keepass backup files are to be saved 
-REMOTE_LOCATION="kp" # The remote place where the keepass database is stored 
-REMOTE_BKUP=$REMOTE_LOCATION"/bkup" # The remote place where the keepass backup files are to be saved 
+REMOTE_LOCATION="kp" # The remote place where the keepass database is stored change with your own
+REMOTE_BKUP=$REMOTE_LOCATION"/bkup" # The remote place where the keepass backup files are to be saved change with the one you have configured
 #if type -a zenity 2>&1 >/dev/null; then ZEN=1; fi
 #####################
 function format_datetime_from_string ()
