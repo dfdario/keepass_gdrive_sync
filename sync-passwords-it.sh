@@ -10,15 +10,15 @@
 ##  Configuration  ##
 #####################
 
-# Name of your remote storage as defined in Rclone
+# Nome del salvataggio remoto definito durante la configurazioni di Rclone
 DRIVE_NAME="remote"
 
 # Name and locations of the passwords file
-DB_FILE_NAME="Database.kdbx" # Name of the keepass database
-LOCAL_LOCATION="/run/media/$USER/MyData/Casa/Keepass/" # The place where the keepass database is stored 
-LOCAL_BKUP=$LOCAL_LOCATION"bkup/" # The place where the keepass backup files are to be saved 
-REMOTE_LOCATION="kp" # The remote place where the keepass database is stored 
-REMOTE_BKUP=$REMOTE_LOCATION"/bkup" # The remote place where the keepass backup files are to be saved 
+DB_FILE_NAME="Database.kdbx" # Nome del database keepass
+LOCAL_LOCATION="/run/media/$USER/MyData/Casa/Keepass/" # La cartella dove si trova il database keepass 
+LOCAL_BKUP=$LOCAL_LOCATION"bkup/" # La cartella locale dove dovranno essere salvati i vecchi file database  
+REMOTE_LOCATION="kp" # La cartella remota (Google drive) nella quale verrà salvato il database keepass 
+REMOTE_BKUP=$REMOTE_LOCATION"/bkup" # La cartella remota dove verranno salvati i vecchi file database keepass
 #if type -a zenity 2>&1 >/dev/null; then ZEN=1; fi
 #####################
 function format_datetime_from_string ()
